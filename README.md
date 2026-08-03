@@ -42,7 +42,7 @@
 ---
 
 📦 Installation
-
+```
 git clone https://github.com/onxx-x146/Ghost
 
 cd Ghost
@@ -50,7 +50,7 @@ cd Ghost
 pip install -r requirements.txt
 
 python ghost.py
-
+```
 ---
 
 🚀 Usage
