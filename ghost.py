@@ -12,14 +12,14 @@ from datetime import datetime
 
 current_time = datetime.now().strftime("%H:%M:%S")
 
-print(f"\033[38;5;214m[{current_time}]\033[0m \033[1;32m[INFO]:\033[0m BY HARI OPEN")
+print(f"\033[38;5;214m[{current_time}]\033[0m \033[1;32m[INFO]:\033[0m BY ONXX OPEN")
 
 try:
     subprocess.run([
         "am",
         "start",
         "-a", "android.intent.action.VIEW",
-        "-d", "https://www.instagram.com/_insrnx_",
+        "-d", "https://www.instagram.com/__.l2l__",
         "com.android.chrome"
     ], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, check=True)
 
@@ -28,7 +28,7 @@ except subprocess.CalledProcessError:
     
 VERSION = "V1.3"
 
-telegram = "https://t.me/onxx12"
+telegram = "https://t.me/vasu90"
 github = "https://github.com/onxx-x146"
 'clear'
 R = '\033[31m'
@@ -44,7 +44,7 @@ banner = r'''
 / /_/ / __  / /_/ /___/ // /   / /
 \____/_/ /_/\____//____//_/   /_/
     
-       👻  Ghost by HARI  ⚔️
+       👻  Ghost by ONXX  ⚔️
      ☢️ End is the Beginning ☢️
 '''
 def show_banner():
